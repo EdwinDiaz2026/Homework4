@@ -75,6 +75,7 @@ public class EmployeeDriver {
         System.out.println("SSN: " + hourlyEmployee2.getSocialSecurityNumber());
         System.out.println("Hourly Wage: " + hourlyEmployee2.getWage());
         System.out.println("Hours Worked: " + hourlyEmployee2.getNumberOfHoursWorked());
+        System.out.println();
 
         System.out.println("Employee #4 info: ");
         System.out.println("Name: " + commissionEmployee1.getFirstName() + " " + commissionEmployee1.getLastName());
@@ -87,17 +88,20 @@ public class EmployeeDriver {
         System.out.println("Name: " + salariedEmployee2.getFirstName() + " " + salariedEmployee2.getLastName());
         System.out.println("SSN: " + salariedEmployee2.getSocialSecurityNumber());
         System.out.println("Weekly Salary: $" + salariedEmployee2.getWeeklySalary());
+        System.out.println();
 
         System.out.println("Employee 6 info:");
         System.out.println("Name: " + baseEmployee1.getFirstName() + " " + baseEmployee1.getLastName());
         System.out.println("SSN: " + baseEmployee1.getSocialSecurityNumber());
         System.out.println("Base Salary: $" + baseEmployee1.getBaseSalary());
+        System.out.println();
 
         System.out.println("Employee 7 info: ");
         System.out.println("Name: " + commissionEmployee2.getFirstName() + " " + commissionEmployee2.getLastName());
         System.out.println("SSN: " + commissionEmployee2.getSocialSecurityNumber());
         System.out.println("Commission Rate: " + commissionEmployee2.getCommissionRate());
         System.out.println("Gross sales: " + commissionEmployee2.getGrossSales());
+        System.out.println();
 
     }
 }

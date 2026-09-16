@@ -37,6 +37,22 @@ public class Course {
         return this.courseName;
     }
 
+    public Instructor getInstructor1() {
+        return this.instructor1;
+    }
+
+    public Instructor getInstructor2() {
+        return this.instructor2;
+    }
+
+    public Textbook getTextbook1() {
+        return this.textbook1;
+    }
+
+    public Textbook getTextbook2() {
+        return this.textbook2;
+    }
+
     public void print() {
         System.out.println("Course: " + getCourseName() +
                 ". Instructor #1: " + instructor1.getFirstName() + " " + instructor1.getLastName() +

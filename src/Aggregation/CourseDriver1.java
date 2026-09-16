@@ -12,18 +12,11 @@ public class CourseDriver1 {
 
         Course course = new Course("CS3560", instructor, textbook);
 
+        course.setInstructor2(instructor2);
+        course.setTextbook2(textbook2);
+
         course.print();
 
-        System.out.println();
-        System.out.println("Instructor #2 Info:");
-        System.out.println("Name: " + instructor2.getFirstName() + " " + instructor2.getLastName());
-        System.out.println("Office Number: " + instructor2.getOfficeNumber());
-
-        System.out.println();
-        System.out.println("Textbook #2 info:");
-        System.out.println("Title: " + textbook2.getTitle());
-        System.out.println("Author: " + textbook2.getAuthor());
-        System.out.println("Publisher: " + textbook2.getPublisher());
 
     }
 }

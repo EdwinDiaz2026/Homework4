@@ -1,0 +1,31 @@
+package Polymorphism;
+
+public class Ship {
+    private String name;
+    private String yearBuilt;
+
+    public Ship() {
+        this.name = null;
+        this.yearBuilt = null;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setYearBuilt(String yearBuilt) {
+        this.yearBuilt = yearBuilt;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String getYearBuilt() {
+        return this.yearBuilt;
+    }
+
+    public void print() {
+        System.out.println("Ship name: " + getName() + ". Year built: " + getYearBuilt());
+    }
+}
